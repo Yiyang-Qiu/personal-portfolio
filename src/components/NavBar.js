@@ -4,7 +4,7 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/github.svg'
 import navIcon3 from '../assets/img/leetcode.svg'
-import logo from '../assets/img/Logo.png'
+import logo from '../assets/img/black-and-white-svgrepo-com.svg'
 
 //nav bar
 export const NavBar = () => {
