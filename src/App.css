@@ -22,7 +22,7 @@
   box-sizing: border-box;
 }
 
-label{
+label, span{
   color: #FFFFFF;
 }
 

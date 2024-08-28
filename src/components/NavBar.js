@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import navIcon2 from '../assets/img/github.svg'
+import navIcon3 from '../assets/img/leetcode.svg'
 import logo from '../assets/img/Logo.png'
 
 //nav bar
@@ -33,8 +33,8 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
             <Navbar.Brand href="#home">
-                {/* /<img src={logo} alt="Logo" /> */}
-                <label>Yiyang Qiu</label>
+                {/* <img src={logo} alt="Logo" /> */}
+                <span>Yiyang Qiu</span>
             </Navbar.Brand>
             <Navbar.Toggle aria-control = "basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>
@@ -55,8 +55,8 @@ export const NavBar = () => {
             <span className="navbar-text">
                 <div className="social-icon">
                     <a href="https://www.linkedin.com/in/yiyangqiu"><img src={navIcon1} alt="Linkedin"></img></a>
-                    <a href="#"><img src={navIcon2} alt="facebook"></img></a>
-                    <a href="#"><img src={navIcon3} alt="Instagram"></img></a>
+                    <a href="https://github.com/Yiyang-Qiu"><img src={navIcon2} alt="facebook"></img></a>
+                    <a href="https://leetcode.com/u/909842568qyy/"><img src={navIcon3} alt="Instagram"></img></a>
                 </div>
                 <button className="vvd" onClick={()=> console.log('connect')}>
                     <span>Let's Connect!</span>
