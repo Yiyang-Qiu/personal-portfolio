@@ -34,7 +34,7 @@ export const NavBar = () => {
         <Container>
             <Navbar.Brand href="#home">
                 {/* <img src={logo} alt="Logo" /> */}
-                <span>Yiyang Qiu</span>
+                <label>Yiyang Qiu</label>
             </Navbar.Brand>
             <Navbar.Toggle aria-control = "basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>
