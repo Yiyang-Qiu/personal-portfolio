@@ -37,7 +37,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p> </p>
+                            <p>⬅️Left &nbsp;&nbsp;&nbsp;&nbsp; Right➡️</p>
                             {/* 以下的图片或者skills可以修改 */}
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">

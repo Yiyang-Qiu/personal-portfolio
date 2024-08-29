@@ -235,10 +235,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
+.banner .words{
+  color: white;
+}
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/ny.jpg');
+  background-image: url('./assets/img/road.jpeg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -348,7 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 120px 0;
   position: relative;
   background-color: black;
 }
@@ -395,7 +398,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #509677 -5.91%, #301cb4 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -427,7 +430,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(#143ea0 -5.91%,#d8680d 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -452,7 +455,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 23px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -474,7 +477,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #509677 -5.91%,#301cb4 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
